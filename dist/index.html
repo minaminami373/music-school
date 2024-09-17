@@ -21,6 +21,7 @@
   <link rel="”icon”" href="">
   <link rel="apple-touch-icon" href="">
   <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
   <script src="/js/script.js" defer></script>
@@ -30,19 +31,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
-  <script src="./js/script.js"></script>
 </head>
 <body>
   <header class="header js-header">
-    <div class="header__inner inner">
-      <a href="#index.html">
-        <picture class="header__logo">
-          <source srcset="/images/logo.jpg" media="(min-width: 375px)"">
-        <img src="/images/logo-sp.png" alt="">
-      </picture></a>
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <a href="#index.html">
+          <img src="/images/logo-sp.png" class="header__logo-sp" alt="きたむらミュージックスクール">
+          <img src="/images/logo.jpg" class="header__logo-pc" alt="きたむらミュージックスクール">
+      </a>
+      </h1>
       <nav class="header__nav sp-none">
         <ul class="header__items">
         <li class="header__item">
@@ -69,22 +67,13 @@
       <div class="drawer-menu__inner">
         <ul class="drawer-menu__items">
           <li class="drawer-menu__item">
-            <a href="#news" class="drawer-menu__link">news</a>
+            <a href="#price" class="drawer-menu__link">料金</a>
           </li>
           <li class="drawer-menu__item">
-            <a href="#service" class="drawer-menu__link">service</a>
+            <a href="#blog" class="drawer-menu__link">ブログ</a>
           </li>
           <li class="drawer-menu__item">
-            <a href="#works" class="drawer-menu__link">works</a>
-          </li>
-          <li class="drawer-menu__item">
-            <a href="#company" class="drawer-menu__link">company</a>
-          </li>
-          <li class="drawer-menu__item">
-            <a href="#recruit" class="drawer-menu__link">recruit</a>
-          </li>
-          <li class="drawer-menu__item">
-            <a href="#contact" class="drawer-menu__link drawer-menu__link--contact">contact</a>
+            <a href="#works" class="drawer-menu__link">制作実績</a>
           </li>
         </ul>
       </div>
