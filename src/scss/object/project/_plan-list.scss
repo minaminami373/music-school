@@ -1,0 +1,23 @@
+@use 'foundation' as *;
+
+.plan-list {
+  margin-top: 100px;
+  display: flex;
+
+}
+
+.plan-list__items {
+  margin: auto;
+}
+
+.plan-list__item {
+  display: flex;
+  font-size: 30px;
+}
+
+.plan-list__item-en {
+  text-transform: capitalize;
+  color: $red;
+  font-weight: $bold;
+
+}

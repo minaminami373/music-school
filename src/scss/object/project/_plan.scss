@@ -1,0 +1,54 @@
+@use 'foundation' as *;
+
+.plan__title-wrap {
+  text-align: center;
+}
+
+.plan__main-title {
+  color: $red;
+  font-size: 25px;
+  line-height: 1.667;
+  font-family: $bold;
+
+  @include mq("md") {
+    font-size: 50px;
+    line-height: 1.429;
+  }
+
+}
+
+.plan__sub-title {
+  margin-top: 7px;
+  font-size: 18px;
+  line-height: 1.667;
+  font-family: $medium;
+
+  @include mq("md"){
+  margin-top: 17px;
+}
+}
+
+.plan__line {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  display: block;
+  margin-top: 25px;
+  background-color: transparent;
+  border-radius: 6%;
+  overflow: hidden;
+}
+
+.plan__line::after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+  border: 40px solid $red;
+
+
+}

@@ -1,0 +1,44 @@
+@use 'foundation' as *;
+
+.mv {
+  height: calc(100vh - 50px);
+  position: relative;
+}
+
+.mv__title-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 20px;
+  width: 100%;
+}
+
+.mv__main-title {
+  color: $white;
+  font-weight: $bold;
+  font-size: 30px;
+  line-height: 1.667;
+  text-align: center;
+  @include mq("md") {
+    font-size: 50px;
+  }
+}
+
+.mv__img,
+.mv__img img {
+    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
+}
+
+.mv__img img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    display: block;
+}
+
+.mv__img {
+  background: #000;
+}
+
