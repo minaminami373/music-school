@@ -526,6 +526,24 @@ a {
   border: 40px solid #CB0000;
 }
 
+.reason-list__img {
+  width: 100%;
+}
+
+.reason-list__img img {
+  width: 100%;
+}
+
+.reason-list__contents {
+  margin-top: 30px;
+}
+
+.reason-list__text {
+  padding-top: 17px;
+  border-top: 1px solid #CB0000;
+  margin-top: 10px;
+}
+
 .support {
   background-color: #CB0000;
   color: #fff;
@@ -534,9 +552,8 @@ a {
 
 .support__main-title {
   margin-top: 7px;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.667;
-  font-family: 500;
 }
 @media screen and (min-width: 768px) {
   .support__main-title {
@@ -547,6 +564,11 @@ a {
 .support__sub-title {
   font-size: 18px;
   margin-top: 17px;
-  font-size: 23px;
+}
+@media screen and (min-width: 768px) {
+  .support__sub-title {
+    margin-top: 17px;
+    font-size: 23px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

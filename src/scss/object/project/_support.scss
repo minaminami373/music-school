@@ -9,9 +9,8 @@
 
 .support__main-title {
   margin-top: 7px;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.667;
-  font-family: $medium;
   @include mq("md") {
     font-size: 50px;
 
@@ -21,7 +20,10 @@
 .support__sub-title {
   font-size: 18px;
   margin-top: 17px;
-  font-size: 23px;
+  @include mq("md") {
+    margin-top: 17px;
+    font-size: 23px;
+  }
 
 
 }
