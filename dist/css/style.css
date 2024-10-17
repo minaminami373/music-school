@@ -179,15 +179,11 @@ a {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 46px;
+  padding: 46px 20px;
 }
 @media screen and (min-width: 768px) {
   .inner {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 60px;
+    padding: 60px 25px;
   }
 }
 
@@ -451,15 +447,17 @@ a {
 
 .plan-list {
   margin-top: 100px;
-  display: flex;
 }
 
 .plan-list__items {
   margin: auto;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .plan-list__item {
   display: flex;
+  justify-content: space-between;
   font-size: 30px;
 }
 
@@ -467,6 +465,12 @@ a {
   text-transform: capitalize;
   color: #CB0000;
   font-weight: 700;
+  text-align: right;
+  width: auto;
+}
+
+.plan-list__item-jp {
+  width: auto;
 }
 
 .plan__title-wrap {
@@ -495,6 +499,7 @@ a {
 @media screen and (min-width: 768px) {
   .plan__sub-title {
     margin-top: 17px;
+    font-size: 23px;
   }
 }
 
@@ -519,5 +524,29 @@ a {
   height: 100%;
   border-radius: 50%;
   border: 40px solid #CB0000;
+}
+
+.support {
+  background-color: #CB0000;
+  color: #fff;
+  text-align: center;
+}
+
+.support__main-title {
+  margin-top: 7px;
+  font-size: 18px;
+  line-height: 1.667;
+  font-family: 500;
+}
+@media screen and (min-width: 768px) {
+  .support__main-title {
+    font-size: 50px;
+  }
+}
+
+.support__sub-title {
+  font-size: 18px;
+  margin-top: 17px;
+  font-size: 23px;
 }
 /*# sourceMappingURL=style.css.map */

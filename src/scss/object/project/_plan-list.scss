@@ -2,16 +2,17 @@
 
 .plan-list {
   margin-top: 100px;
-  display: flex;
-
 }
 
 .plan-list__items {
   margin: auto;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .plan-list__item {
   display: flex;
+  justify-content: space-between;
   font-size: 30px;
 }
 
@@ -19,5 +20,12 @@
   text-transform: capitalize;
   color: $red;
   font-weight: $bold;
+  text-align: right;
+  width: auto;
+
+}
+
+.plan-list__item-jp {
+  width: auto;
 
 }
